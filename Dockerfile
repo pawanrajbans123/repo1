@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 MAINTAINER pawanrajbans@gmail.com
-RUN apt-get install -y nginx \
+RUN apt update && apt-get install -y nginx \
   zip \
  unzip 
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
