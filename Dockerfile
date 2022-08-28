@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER sanjay.dahiya332@gmail.com
+MAINTAINER pawanrrajbans@gmail.com
 RUN apt-get install -y httpd \
   zip \
  unzip 
